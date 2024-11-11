@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "types": ["vitest/globals"],
+    "jsx": "react-jsx" // Especifica que TypeScript debe procesar JSX para React 17+ (y usar el nuevo JSX Transform)
+  },
+  "include": [
+    "src/**/*",
+    "vite.config.ts", // Incluir la configuración de vite si usas TypeScript
+    "tests/**/*", // Asegúrate de que tus archivos de prueba estén en esta carpeta
+    "tests"
+  ]
+}

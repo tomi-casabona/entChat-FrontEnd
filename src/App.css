@@ -1,0 +1,37 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  max-width: 1280px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* index.css básico */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333;
+  background-color: #7a7575;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar {
+  background-color: cadetblue;
+}
+
+.title {
+  color: white;
+  font-size: 2rem;
+  
+}
