@@ -1,15 +1,13 @@
 import './App.css';
+import { InputChat } from './components/InputChat';
+import { ChatBoard } from './components/ChatBoard';
 
 function App() {
   return (
     <>
       <div>
-        <h1>Hello</h1>
-        <input
-          className=""
-          type="text"
-          placeholder="Envía un mensaje a entChat"
-        ></input>
+        <ChatBoard />
+        <InputChat />
       </div>
     </>
   );
